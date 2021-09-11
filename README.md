@@ -24,9 +24,23 @@ Nous allons apprendre à:
 Pour installer Apache Maven, il nous faut avoir mis en place java dans notre pc, vous pouvez télécharger JDK sur lien suivant [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html) et pour plus de détail sur la configuration de java [https://github.com/camara94/overview_java_dev#variables-denvironnement-java](https://github.com/camara94/overview_java_dev#variables-denvironnement-java)
 
 ## Installez Apache Maven
-## Téléchargement
+### Téléchargement
 éléchargez Apache Maven depuis le site officiel (les checksums sont aussi fournis sur la page de téléchargement) : [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
 
 Téléchargement selon votre Système:
 * Binary **tar.gz** archive si vous êtes sous Linux ou Mac OS
 * Binary **zip** archive si vous êtes sous Windows
+
+### Définir les variables d'environnement
+Ensuite, il faut définir le chemin vers le JDK grâce à la **variable d'environnement** <code>JAVA_HOME</code> et ajouter les binaires du JDK et de Maven au PATH :
+* sous Linux : ajoutez ces lignes, en les adaptant, à la fin de votre fichier <code>~/.bashrc</code> (ou <code>~/.zshrc</code> si vous utilisez Zsh) :
+  <pre>
+    <code>export JAVA_HOME="/chemin/vers/repertoire/env/java/jdk1.8.0_131"
+MAVEN_HOME="/chemin/vers/repertoire/env/maven/apache-maven-3.5.0"
+PATH="$PATH:$JAVA_HOME/bin:$MAVEN_HOME/bin"</code>
+  </pre><br/>
+  Si votre fichier contient déjà une ligne du type <code>PATH=...</code>, conservez-la et ajoutez aussi la ligne ci-dessus dans le fichier.
+* **sous Mac OS** Même principe que pour linux
+* **sous Windows :** Ouvrez les propriétés système (avec la commande <code>Win</code> + <code>Pause</code>),<br /> dans l'onglet « Avancé », cliquez sur le bouton « Variables d'environnement » 
+   1. Modifiez la propriété nommée <code>Path</code> en ajoutant ceci (à adapter):
+  ![variable en](images/vamvnen.png)
