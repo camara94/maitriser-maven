@@ -76,3 +76,18 @@ Vous trouverez plus de détails sur la configuration de Maven dans la documentat
 * Configuration : [https://maven.apache.org/configure.html]( https://maven.apache.org/configure.html)
 
 * Fichier **<code>settings.xml</code>** : [https://maven.apache.org/settings.html](https://maven.apache.org/settings.html)
+
+## Utilisez Apache Maven avec votre IDE
+### Eclipse
+#### Installation
+Si vous avez téléchargé le package Eclipse IDE for Java EE Developpers ou Eclipse IDE for Java Developpers, le plugin de support de Maven est déjà embarqué.
+
+Sinon, vous pouvez installer le plugin [M2Eclipse](https://www.eclipse.org/m2e/).<br/>
+Ouvrez les préférences (Window > Preferences) :
+* Maven 
+    * Installation
+        1. Ajoutez une nouvelle installation externe :
+           ![image](images/mvneclipsesettings.png)
+        2. Cochez la nouvelle installation que vous venez de créer pour qu'elle devienne celle par défaut.
+    * User Settings :
+        * User Settings : **<code>/chemin/vers/home/utilisateur/.m2/settings.xml</code>
