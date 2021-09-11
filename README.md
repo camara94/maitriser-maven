@@ -53,3 +53,26 @@ Testez maintenant l'installation de Maven :
    <h3><code>mvn -v</code></h3>
 3. Vous devriez obtenir un résultat ressemblant à ceci, si tout c'était bien passé.
    ![mvnv](images/mvnv.png)
+## Configurez Apache Maven
+La configuration de Maven se fait dans le fichier .**<code>${home}/.m2/settings.xml</code>**, dans le répertoire home de l'utilisateur (**<code>~/.m2/settings.xml</code>** sous Linux). Ce fichier n'existe pas par défaut, copiez celui contenu dans le répertoire conf de l'installation de Maven.
+
+Maven télécharge les dépendances dans un repository local pour les gérer. Par défaut, il est situé dans le répertoire **<code>${home}/.m2/repository</code>** dans le home de l'utilisateur (**<code>~/.m2/repository</code>** sous Linux). Ce répertoire peut vite prendre beaucoup de place et je vous conseille de le sortir de votre home pour le mettre dans le répertoire d'environnement de développement. Pour cela, il faut modifier le fichier **<code>settings.xml</code>** comme ceci :
+<pre>
+<code>
+&lt;settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd"&gt;
+    ...
+    &lt;!-- localRepository
+    | The path to the local repository maven will use to store artifacts.
+    |
+    | Default: ${user.home}/.m2/repository --&gt;
+    &lt;localRepository&gt;/chemin/vers/repertoire/env/maven/repository&lt;/localRepository&gt;
+    ...
+&lt;/settings&gt;
+</code>
+</pre>
+Vous trouverez plus de détails sur la configuration de Maven dans la documentation officielle :
+* Configuration : [https://maven.apache.org/configure.html]( https://maven.apache.org/configure.html)
+
+* Fichier **<code>settings.xml</code>** : [https://maven.apache.org/settings.html](https://maven.apache.org/settings.html)
