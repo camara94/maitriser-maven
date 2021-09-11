@@ -132,3 +132,11 @@ Vous remarquez également que l'application a une dépendance en « test » vers
 
 Le fichier **<code>App.java</code>**, quant à lui, n'est qu'un simple Hello world :
 ![app](images/appjava.png)
+## Construisez votre nouveau projet
+Ouvrez une console à la racine du projet (répertoire **<code>mawatta</code>), là où se trouve le fichier **<code>pom.xml</code>
+<h3><code>mvn package</code></h3>
+
+![build](images/build.png)
+<h3><code>java -cp target\mawatta-1.0-SNAPSHOT.jar com.stardevcgroup.App</code></h3>
+
+![mawatta](images/output.png)
