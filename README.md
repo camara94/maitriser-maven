@@ -98,4 +98,4 @@ Ouvrez les préférences par défaut (File > Other Settings > Default Settings..
 * Build, Execution Deployment > Build Tools > Maven :
   ![intel](images/intellij.png)
   * Maven home directory **<code> /chemin/vers/repertoire/env/maven/apache-maven-3.6.3</code>**
-  * User settings file : **<code>/chemin/vers/home/utilisateur/.m2/settings.xml</code> (si le chemin par défaut est incorrect, cochez la case Override et saisissez le bon chemin)
+  * User settings file : **<code>/chemin/vers/home/utilisateur/.m2/settings.xml</code>** (si le chemin par défaut est incorrect, cochez la case Override et saisissez le bon chemin)
