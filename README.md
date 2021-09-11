@@ -118,3 +118,17 @@ Voici comment générer le squelette en mode console :
 4. Ensuite Maven vous demande de confirmer les paramètres, il vous suffit donc presser la touche <code>Entrée</code>
 5. Maven crée le squelette du projet : vous devriez voir un résultat comme celui-ci :
   ![mvn créer](images/fini-mvn-creer.png)
+## Qu'est-ce qui a été généré ?
+Maven a créé le répertoire **<code>mawatta</code>** (valeur de l'artifactId saisie plus tôt) et y a généré l'arborescence suivante :
+![mvntree](images/mvntree.png)
+J'ai ainsi obtenu :
+* un fichier **<code>>pom.xml</code>** à la racine de mon projet. C'est le fichier de description/configuration du projet Maven.
+* un répertoire **<code>src/main/java</code>**. C'est le répertoire contenant les sources de mon application, contenant pour l'instant un unique fichier **<code>App.java</code>** situé dans le package <code>com.stardevcgroup</code>.
+* un répertoire **<code>src/test/java</code>**. C'est le répertoire contenant les sources des tests JUnit de mon application, contenant pour le moment un unique fichier **<code>AppTest.java</code>** situé dans le package **<code>com.stardevcgroup</code>** .
+  
+Dans le fichier **<code>pom.xml</code>**, on retrouvera les paramètres saisis lors de la génération (groupId, artifactId, version) :
+![pomxml](images/pomxml.png)
+Vous remarquez également que l'application a une dépendance en « test » vers JUnit version 3.8.1. Nous y reviendrons plus loin dans ce cours
+
+Le fichier **<code>App.java</code>**, quant à lui, n'est qu'un simple Hello world :
+![app](images/appjava.png)
