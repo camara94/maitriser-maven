@@ -6,4 +6,12 @@ Nous allons apprendre à:
 * Demarrer un apache maven
 * Organiser un projet maven
 * Personnaliser les differente étape de sa construction
-* livrer les livrable avec un site descriptif et différent rapport de celui-ci
+* livrer les livrable avec un site descriptif et différent rapport de celui-ci.
+  
+## Les objectifs de ce cours 
+* Apprendre le fonctionnement et les principes généraux de Maven
+* Intégrer l'utilisation de Maven dans votre IDE (Eclipse et IntelliJ)
+* Initialiser un projet Maven
+* Organiser un projet Maven multi-modules
+* Personnaliser la construction (build) du projet avec des plugins
+* Générer un site documentaire du projet et des rapports sur la construction (résultat des tests, qualité du code...)
