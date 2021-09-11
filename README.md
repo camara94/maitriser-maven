@@ -99,3 +99,7 @@ Ouvrez les préférences par défaut (File > Other Settings > Default Settings..
   ![intel](images/intellij.png)
   * Maven home directory **<code> /chemin/vers/repertoire/env/maven/apache-maven-3.6.3</code>**
   * User settings file : **<code>/chemin/vers/home/utilisateur/.m2/settings.xml</code>** (si le chemin par défaut est incorrect, cochez la case Override et saisissez le bon chemin)
+## Créez votre premier projet Maven
+**Maven** utilise une approche dite **« convention over configuration »** (ou **convention plutôt que configuration** en français). Cela signifie que **Maven** a établi un certain nombre de conventions et que si vous les respectez, beaucoup de choses seront automatiques. Vous n'aurez donc que très peu de configuration à faire !
+
+Une des premières conventions concerne l'arborescence d'un projet Maven. Celle-ci étant fixée (cf. [documentation](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)), Maven vous permet de générer un squelette de votre projet. C'est ce que je vais vous montrer tout de suite.
