@@ -15,3 +15,7 @@ Nous allons apprendre à:
 * Organiser un projet Maven multi-modules
 * Personnaliser la construction (build) du projet avec des plugins
 * Générer un site documentaire du projet et des rapports sur la construction (résultat des tests, qualité du code...)
+## Les références sur Apache Maven
+* le site officiel: [https://maven.apache.org](https://maven.apache.org)
+* un livre en français, sous licence [Creative-commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr), écrit par Nicolas de Loof et Arnaud Héritier : [Apache Maven - Version 2 et 3](https://github.com/ndeloof/apache-maven-book).
+* Apache Maven™ est une marque déposée par l'[Apache Software Foundation](https://www.apache.org/).
