@@ -90,4 +90,12 @@ Ouvrez les préférences (Window > Preferences) :
            ![image](images/mvneclipsesettings.png)
         2. Cochez la nouvelle installation que vous venez de créer pour qu'elle devienne celle par défaut.
     * User Settings :
-        * User Settings : **<code>/chemin/vers/home/utilisateur/.m2/settings.xml</code>
+        * User Settings : **<code>/chemin/vers/home/utilisateur/.m2/settings.xml</code>**
+### IntelliJ
+Le support de Maven est embarqué par défaut dans JetBrains IntelliJ.
+#### Configuration
+Ouvrez les préférences par défaut (File > Other Settings > Default Settings...) :
+* Build, Execution Deployment > Build Tools > Maven :
+  ![intel](images/intellij.png)
+  * Maven home directory **<code> /chemin/vers/repertoire/env/maven/apache-maven-3.6.3</code>**
+  * User settings file : **<code>/chemin/vers/home/utilisateur/.m2/settings.xml</code> (si le chemin par défaut est incorrect, cochez la case Override et saisissez le bon chemin)
