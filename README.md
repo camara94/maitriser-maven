@@ -44,3 +44,12 @@ PATH="$PATH:$JAVA_HOME/bin:$MAVEN_HOME/bin"</code>
 * **sous Windows :** Ouvrez les propriétés système (avec la commande <code>Win</code> + <code>Pause</code>),<br /> dans l'onglet « Avancé », cliquez sur le bouton « Variables d'environnement » 
    1. Modifiez la propriété nommée <code>Path</code> en ajoutant ceci (à adapter):
   ![variable en](images/vamvnen.png)
+
+### Tester l'installation
+Testez maintenant l'installation de Maven :
+1. * sous Linux / Mac OS : ouvrez un nouveau terminal
+   * sous Windows : ouvrez une nouvelle console (<code>Win</code> + <code>R</code>, puis taper <code>cmd</code>, puis <code>Entrée</code>
+2. Exécutons la commande suivante :
+   <h3><code>mvn -v</code></h3>
+3. Vous devriez obtenir un résultat ressemblant à ceci, si tout c'était bien passé.
+   ![mvnv](images/mvnv.png)
