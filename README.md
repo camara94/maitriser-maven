@@ -22,3 +22,11 @@ Nous allons apprendre à:
 
 ## Prérequis 
 Pour installer Apache Maven, il nous faut avoir mis en place java dans notre pc, vous pouvez télécharger JDK sur lien suivant [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html) et pour plus de détail sur la configuration de java [https://github.com/camara94/overview_java_dev#variables-denvironnement-java](https://github.com/camara94/overview_java_dev#variables-denvironnement-java)
+
+## Installez Apache Maven
+## Téléchargement
+éléchargez Apache Maven depuis le site officiel (les checksums sont aussi fournis sur la page de téléchargement) : [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
+
+Téléchargement selon votre Système:
+* Binary **tar.gz** archive si vous êtes sous Linux ou Mac OS
+* Binary **zip** archive si vous êtes sous Windows
